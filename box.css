@@ -1,0 +1,134 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+ }
+body {
+  background-color: #333;
+}
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+.container {
+  width: 800px;
+  height: 600px;
+  margin: 150px auto;
+  background-color: #ffb366;
+  background: url('assets/trip.jpg') no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
+}
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 1px;
+  background-color: #666;
+  filter: grayscale(50%);
+}
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(20%);
+ }
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .3);
+  border-radius: 20px;
+}
+.profile-image {
+  margin-top: -60px;
+}
+.box {
+  width: 150px;
+  height: 150px;
+}
+
+#box-01 {
+  background-color: hsla(60, 100%, 60%, .6);
+  background: url('assets/princess.jpg');
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+  position: absolute;
+  top: 3%;
+  left: 15px;
+  border-radius: 50px;
+}
+#box-02 {
+  background-color: hsla(84, 84%, 56%, .6);
+  background: url('assets/wrapping.jpg');
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+  position: absolute;
+  top: 3%;
+  right: 20px;
+  border-radius: 50px;
+}
+#box-03 {
+  background-color: hsla(332, 69%, 51%, .6);
+  background: url('assets/packs.jpg');
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+  position: absolute;
+  top: 70%;
+  left: 15px;
+  border-radius: 50px;
+ }
+#box-04 {
+  background-color: hsla(279, 60%, 44%, .6);
+  background: url('assets/prince.jpg');
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+  position: absolute;
+  top: 70%;
+  right: 20px;
+  border-radius: 50px;
+}
+
+/* Pozicionálás */
+
+.profile-card {
+  width: 450px;
+  position: absolute;
+  top: 22%;
+  left: 22%;
+}
+
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+.abouth {
+  position: fixed;
+}
+.head {
+  margin-bottom: 10%;
+}
+a {
+  color: #00004d;
+  font-size: 25px;
+}
+a:hover {
+  color: #ccccff;
+}
+p{
+  font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+url {
+  width: 150px;
+  max-width: calc(100vw - 10px);
+}
